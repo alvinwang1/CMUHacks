@@ -1,10 +1,10 @@
 {
   "mode": "customer_only_day_dot_db_hardcoded",
-  "run_started_at": "2025-09-13T19:20:51.401377Z",
-  "run_finished_at": "2025-09-13T19:20:51.401381Z",
+  "run_started_at": "2025-09-13T20:16:05.057139Z",
+  "run_finished_at": "2025-09-13T20:16:05.057147Z",
   "total_planned_interactions": 10,
   "total_completed_interactions": 10,
-  "total_amount_spent": 19.0,
+  "total_amount_spent": 20.25,
   "params": {
     "PRICE_ALPHA_SCALE": 1.0,
     "THRESHOLD_BASE": 0.0,
@@ -12,67 +12,177 @@
     "EPSILON": 0.0
   },
   "starting_stock": {
-    "Smartwater": {
+    "Vitamin Water": {
       "quantity": 10,
       "price": 2.25,
-      "stock_id": "a1f94cc0-b23c-4617-b081-0e11d07cd30d"
+      "stock_id": "139d4c3f-5b62-45ac-88c4-cbce13831d5d"
     },
-    "Snickers bar": {
+    "Oat Milk": {
+      "quantity": 10,
+      "price": 2.75,
+      "stock_id": "2fc98199-a41b-40f4-b099-f0dfd9ac339f"
+    },
+    "Sprite": {
+      "quantity": 10,
+      "price": 2.25,
+      "stock_id": "8564ec65-4e61-4112-9d70-f51e134ac72d"
+    },
+    "LaCroix": {
       "quantity": 10,
       "price": 2.0,
-      "stock_id": "48bccf1c-36b6-4ef2-b972-bce4c5c8364e"
+      "stock_id": "e460073c-936b-4fe2-be21-1da69065e0a5"
     },
     "Trail Mix": {
       "quantity": 10,
       "price": 2.25,
-      "stock_id": "75137d3b-43c5-42a3-babb-ba1ffd193294"
+      "stock_id": "a9986c2a-5c5b-4c20-a5b1-2d08657700aa"
     },
-    "Clif Bar": {
+    "Pepsi": {
       "quantity": 10,
-      "price": 2.5,
-      "stock_id": "4c368e8f-0a47-4a2f-b407-5628df33b13e"
+      "price": 2.25,
+      "stock_id": "5d71f820-e1da-4e54-b401-da09c080ff5d"
+    },
+    "Goldfish": {
+      "quantity": 10,
+      "price": 2.25,
+      "stock_id": "19f91eb8-6c45-4fa5-84c6-323693c02862"
     },
     "Sparkling Water": {
       "quantity": 10,
       "price": 1.75,
-      "stock_id": "0a6c6c54-a20a-496c-b686-4d3641b88f2f"
+      "stock_id": "62d43ec4-ad62-48aa-938f-05bb93523326"
+    },
+    "Snickers bar": {
+      "quantity": 10,
+      "price": 2.0,
+      "stock_id": "aa4b7ff8-5d3c-4888-9508-f34f51a77e35"
+    },
+    "Protein bar": {
+      "quantity": 10,
+      "price": 2.5,
+      "stock_id": "cdbcbac2-32bc-45ff-ab50-b86a34162094"
     },
     "Granola Bar": {
       "quantity": 10,
       "price": 2.0,
-      "stock_id": "c5a3339a-ceea-4c40-aeb8-9322fef95b0a"
+      "stock_id": "1801d9e6-bc17-45c1-931f-eedc4f189755"
+    },
+    "Rice Cakes": {
+      "quantity": 10,
+      "price": 2.25,
+      "stock_id": "615cd0b7-0c4f-4a44-a711-5734564d255c"
+    },
+    "Smartwater": {
+      "quantity": 10,
+      "price": 2.25,
+      "stock_id": "5ddb2d63-8e0c-4c12-a120-87f076a76542"
+    },
+    "Beef Jerky": {
+      "quantity": 10,
+      "price": 2.75,
+      "stock_id": "64bb0547-d177-491d-9ce8-4eed6d04b36e"
+    },
+    "Clif Bar": {
+      "quantity": 10,
+      "price": 2.5,
+      "stock_id": "c1839e50-c78e-4c05-a385-f1fda9d52571"
+    },
+    "Apple Juice": {
+      "quantity": 10,
+      "price": 2.0,
+      "stock_id": "e741e0b1-966b-4719-b973-04b64066dfe7"
+    },
+    "Oreo Pack": {
+      "quantity": 10,
+      "price": 2.0,
+      "stock_id": "519aae69-3d07-4f6b-9d62-feefdbabad71"
     }
   },
   "ending_stock": {
-    "Smartwater": {
+    "Vitamin Water": {
       "quantity": 10,
       "price": 2.25,
-      "stock_id": "a1f94cc0-b23c-4617-b081-0e11d07cd30d"
+      "stock_id": "139d4c3f-5b62-45ac-88c4-cbce13831d5d"
     },
-    "Snickers bar": {
-      "quantity": 4,
+    "Oat Milk": {
+      "quantity": 10,
+      "price": 2.75,
+      "stock_id": "2fc98199-a41b-40f4-b099-f0dfd9ac339f"
+    },
+    "Sprite": {
+      "quantity": 10,
+      "price": 2.25,
+      "stock_id": "8564ec65-4e61-4112-9d70-f51e134ac72d"
+    },
+    "LaCroix": {
+      "quantity": 10,
       "price": 2.0,
-      "stock_id": "48bccf1c-36b6-4ef2-b972-bce4c5c8364e"
+      "stock_id": "e460073c-936b-4fe2-be21-1da69065e0a5"
     },
     "Trail Mix": {
       "quantity": 10,
       "price": 2.25,
-      "stock_id": "75137d3b-43c5-42a3-babb-ba1ffd193294"
+      "stock_id": "a9986c2a-5c5b-4c20-a5b1-2d08657700aa"
     },
-    "Clif Bar": {
+    "Pepsi": {
+      "quantity": 6,
+      "price": 2.25,
+      "stock_id": "5d71f820-e1da-4e54-b401-da09c080ff5d"
+    },
+    "Goldfish": {
       "quantity": 10,
-      "price": 2.5,
-      "stock_id": "4c368e8f-0a47-4a2f-b407-5628df33b13e"
+      "price": 2.25,
+      "stock_id": "19f91eb8-6c45-4fa5-84c6-323693c02862"
     },
     "Sparkling Water": {
-      "quantity": 6,
+      "quantity": 7,
       "price": 1.75,
-      "stock_id": "0a6c6c54-a20a-496c-b686-4d3641b88f2f"
+      "stock_id": "62d43ec4-ad62-48aa-938f-05bb93523326"
+    },
+    "Snickers bar": {
+      "quantity": 9,
+      "price": 2.0,
+      "stock_id": "aa4b7ff8-5d3c-4888-9508-f34f51a77e35"
+    },
+    "Protein bar": {
+      "quantity": 10,
+      "price": 2.5,
+      "stock_id": "cdbcbac2-32bc-45ff-ab50-b86a34162094"
     },
     "Granola Bar": {
       "quantity": 10,
       "price": 2.0,
-      "stock_id": "c5a3339a-ceea-4c40-aeb8-9322fef95b0a"
+      "stock_id": "1801d9e6-bc17-45c1-931f-eedc4f189755"
+    },
+    "Rice Cakes": {
+      "quantity": 10,
+      "price": 2.25,
+      "stock_id": "615cd0b7-0c4f-4a44-a711-5734564d255c"
+    },
+    "Smartwater": {
+      "quantity": 10,
+      "price": 2.25,
+      "stock_id": "5ddb2d63-8e0c-4c12-a120-87f076a76542"
+    },
+    "Beef Jerky": {
+      "quantity": 10,
+      "price": 2.75,
+      "stock_id": "64bb0547-d177-491d-9ce8-4eed6d04b36e"
+    },
+    "Clif Bar": {
+      "quantity": 10,
+      "price": 2.5,
+      "stock_id": "c1839e50-c78e-4c05-a385-f1fda9d52571"
+    },
+    "Apple Juice": {
+      "quantity": 8,
+      "price": 2.0,
+      "stock_id": "e741e0b1-966b-4719-b973-04b64066dfe7"
+    },
+    "Oreo Pack": {
+      "quantity": 10,
+      "price": 2.0,
+      "stock_id": "519aae69-3d07-4f6b-9d62-feefdbabad71"
     }
   },
   "interactions": [
@@ -90,44 +200,44 @@
     },
     {
       "customer": "25bdf4c8-34b3-457b-8199-f9a546c64288",
-      "picked_item": "Snickers bar",
-      "score": 0.488333,
+      "picked_item": "Pepsi",
+      "score": 0.685,
       "fulfilled_items": [
-        "Snickers bar"
+        "Pepsi"
       ],
       "rejected_items": [],
-      "amount_spent": 2.0,
+      "amount_spent": 2.25,
       "hunger": 0.72,
       "price_sensitivity": 0.35
     },
     {
       "customer": "bab3c82c-e57d-48f6-a074-46dc93de7a3b",
-      "picked_item": "Snickers bar",
-      "score": 0.574667,
+      "picked_item": "Pepsi",
+      "score": 0.703,
       "fulfilled_items": [
-        "Snickers bar"
+        "Pepsi"
       ],
       "rejected_items": [],
-      "amount_spent": 2.0,
+      "amount_spent": 2.25,
       "hunger": 0.68,
       "price_sensitivity": 0.22
     },
     {
       "customer": "e29c7301-024b-46a2-9010-b950afc7db92",
-      "picked_item": "Snickers bar",
-      "score": 0.378333,
+      "picked_item": "Pepsi",
+      "score": 0.49,
       "fulfilled_items": [
-        "Snickers bar"
+        "Pepsi"
       ],
       "rejected_items": [],
-      "amount_spent": 2.0,
+      "amount_spent": 2.25,
       "hunger": 0.42,
       "price_sensitivity": 0.68
     },
     {
       "customer": "480c217f-4f0a-4d0c-a3bb-a57e3c684dbb",
       "picked_item": "Snickers bar",
-      "score": 0.515667,
+      "score": 0.584,
       "fulfilled_items": [
         "Snickers bar"
       ],
@@ -138,10 +248,10 @@
     },
     {
       "customer": "9f9ed002-c337-4e3b-8759-ba6af23a4293",
-      "picked_item": "Snickers bar",
-      "score": 0.428,
+      "picked_item": "Apple Juice",
+      "score": 0.492,
       "fulfilled_items": [
-        "Snickers bar"
+        "Apple Juice"
       ],
       "rejected_items": [],
       "amount_spent": 2.0,
@@ -150,13 +260,13 @@
     },
     {
       "customer": "9f9673a2-06d7-449a-8b70-daefeef536dd",
-      "picked_item": "Snickers bar",
-      "score": 0.674667,
+      "picked_item": "Pepsi",
+      "score": 0.893,
       "fulfilled_items": [
-        "Snickers bar"
+        "Pepsi"
       ],
       "rejected_items": [],
-      "amount_spent": 2.0,
+      "amount_spent": 2.25,
       "hunger": 0.68,
       "price_sensitivity": 0.22
     },
@@ -174,13 +284,13 @@
     },
     {
       "customer": "f92fabfa-3c38-4be9-be7c-4d057cb04052",
-      "picked_item": "Sparkling Water",
-      "score": 0.45,
+      "picked_item": "Apple Juice",
+      "score": 0.48,
       "fulfilled_items": [
-        "Sparkling Water"
+        "Apple Juice"
       ],
       "rejected_items": [],
-      "amount_spent": 1.75,
+      "amount_spent": 2.0,
       "hunger": 0.4,
       "price_sensitivity": 0.8
     },

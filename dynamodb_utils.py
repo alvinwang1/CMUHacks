@@ -26,7 +26,6 @@ class DynamoDBManager:
             response = table.scan(
                 FilterExpression=boto3.dynamodb.conditions.Attr('is_actual').eq(1) & boto3.dynamodb.conditions.Attr('time_of_day').eq('closing') # & boto3.dynamodb.conditions.Attr('time').begins_with(current_date)
             )
-            assert len(response.get('Items', [])) <= 10, "More than 10 products found in the stock table"
             return response.get('Items', [])
         except ClientError as e:
             print(f"Error scanning table Stock: {e}")

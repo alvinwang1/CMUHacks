@@ -59,83 +59,154 @@ class VendingAgent:
             return None
 
     def _calculate_restock_cost(self, restock_plan, supplier_info):
-        """Calculates the total cost of the restock plan."""
-        supplier_prices = {item['product_name']: item['price'] for item in supplier_info}
-        total_cost = 0
-        for item in restock_plan:
-            product_name = item['product_name']
-            quantity = item['quantity_to_buy']
-            cost_per_unit = supplier_prices.get(product_name)
-            if cost_per_unit is None:
-                print(f"Warning: Product '{product_name}' not found in supplier list. Skipping.")
-                continue
-            total_cost += cost_per_unit * quantity
+        """Calculates the total cost of the restock plan.
+        Accepts restock_plan either as:
+          - dict: { product_name: { 'quantity_to_buy': X, ... }, ... }
+          - list: [ { 'product_name': name, 'quantity_to_buy': X, ... }, ... ]
+        """
+        # build supplier price map (use Decimal if available)
+        supplier_prices = {}
+        for item in supplier_info:
+            name = item.get('product_name')
+            price = item.get('price')
+            # normalize numeric type
+            try:
+                supplier_prices[name] = float(price)
+            except (TypeError, ValueError):
+                supplier_prices[name] = 0.0
+
+        total_cost = 0.0
+
+        # handle dict or list shapes for restock_plan
+        if isinstance(restock_plan, dict):
+            iterator = restock_plan.items()  # (product_name, details)
+            for product_name, details in iterator:
+                qty = 0
+                if isinstance(details, dict):
+                    qty = details.get('quantity_to_buy', 0)
+                else:
+                    # fallback if details is a primitive
+                    try:
+                        qty = int(details)
+                    except Exception:
+                        qty = 0
+                price = supplier_prices.get(product_name)
+                if price is None:
+                    print(f"Warning: supplier price missing for '{product_name}'. Skipping cost.")
+                    continue
+                try:
+                    total_cost += float(qty) * float(price)
+                except Exception:
+                    print(f"Warning: cost calc failed for '{product_name}'. Skipping.")
+        elif isinstance(restock_plan, list):
+            for item in restock_plan:
+                product_name = item.get('product_name')
+                qty = item.get('quantity_to_buy', 0)
+                price = supplier_prices.get(product_name)
+                if price is None:
+                    print(f"Warning: supplier price missing for '{product_name}'. Skipping cost.")
+                    continue
+                try:
+                    total_cost += float(qty) * float(price)
+                except Exception:
+                    print(f"Warning: cost calc failed for '{product_name}'. Skipping.")
+        else:
+            print("Warning: unknown restock_plan type for cost calculation. Assuming cost 0.")
         return total_cost
+
 
     def _prepare_data_for_update(self, old_stock, restock_plan, old_balance, supplier_info, new_date):
         """
         Prepares the data for the database update transaction based on the LLM's restock plan.
-        Calculates new stock levels and balance.
+        Returns (new_stock_data, new_balance_data).
         """
-        # The LLM's response now provides the selling price directly in the restock_plan
-        # so we no longer need a separate new_prices dictionary.
-
-        # Convert old stock list to a dictionary for faster lookups
-        old_stock_dict = {item['product_name']: item['quantity'] for item in old_stock}
+        # Convert old stock list to a dict
+        old_stock_dict = {item['product_name']: int(item.get('quantity', 0)) for item in old_stock}
 
         new_stock_data = []
         restocked_products = set()
 
-        # 1. Process the restock plan from the LLM
-        for item in restock_plan:
-            product_name = item['product_name']
-            restocked_products.add(product_name)
+        # collect product names from both old stock and restock plan (support both shapes)
+        product_names = set(old_stock_dict.keys())
+        if isinstance(restock_plan, dict):
+            product_names.update(restock_plan.keys())
+        elif isinstance(restock_plan, list):
+            for item in restock_plan:
+                name = item.get('product_name')
+                if name:
+                    product_names.add(name)
 
-            # Ensure quantity_to_buy is a number and handle potential errors
+        # helper to get details for a product from restock_plan
+        def _get_plan_details(product_name):
+            if isinstance(restock_plan, dict):
+                return restock_plan.get(product_name, {})
+            elif isinstance(restock_plan, list):
+                for it in restock_plan:
+                    if it.get('product_name') == product_name:
+                        return it
+            return {}
+
+        for product_name in product_names:
+            restocked_products.add(product_name)
+            details = _get_plan_details(product_name)
+
+            # quantity_to_buy may be missing (treat as 0)
             try:
-                qty_to_buy = int(item.get('quantity_to_buy', 0))
-            except (ValueError, TypeError):
+                qty_to_buy = int(details.get('quantity_to_buy', 0))
+            except (ValueError, TypeError, AttributeError):
                 qty_to_buy = 0
                 print(f"Warning: Quantity for '{product_name}' is not a valid number. Setting to 0.")
 
-            # Ensure selling_price is a number and handle potential errors
-            try:
-                selling_price = Decimal(str(item.get('selling_price')))
-            except (ValueError, TypeError):
-                selling_price = None
-                print(f"Warning: Selling price for '{product_name}' is not a valid number. Skipping item.")
-            
-            if selling_price is not None:
-                # Calculate the new quantity by combining old stock and restock plan
-                current_qty = old_stock_dict.get(product_name, 0)
-                new_qty = current_qty + qty_to_buy # Max capacity is 10
-                print(product_name, new_qty, current_qty, qty_to_buy)
+            # selling_price may be missing (keep previous or skip if none and no old price)
+            selling_price_val = details.get('selling_price', None)
+            selling_price = None
+            if selling_price_val is not None:
+                try:
+                    selling_price = Decimal(str(selling_price_val))
+                except (ValueError, TypeError, InvalidOperation):
+                    selling_price = None
+                    print(f"Warning: Selling price for '{product_name}' is not a valid number. Skipping item.")
 
-                assert new_qty <= 10, "Selling qty > 10"
-                
-                if new_qty > 0:
-                    new_stock_data.append({
-                        'stock_id': str(uuid.uuid4()),
-                        'product_name': product_name,
-                        'quantity': new_qty,
-                        'is_actual': 1,
-                        'date': new_date,
-                        'time_of_day': 'closing',
-                        'selling_price': selling_price
-                    })
+            current_qty = old_stock_dict.get(product_name, 0)
+            new_qty = current_qty + qty_to_buy
 
-        # 2. Handle products that were in the machine but not in the restock plan
-        # These are kept if they have remaining stock and are not being removed.
-        # My prompt tells me that the model can chose to discard them which means that if they don't appear in the restock plan, then they will not exist.
-        
-        # 3. Calculate new balance based on the restock plan cost
+            # enforce capacity = 10 gracefully
+            if new_qty > 10:
+                print(f"Warning: New qty for '{product_name}' ({new_qty}) exceeds capacity 10. Capping to 10.")
+                new_qty = 10
+
+            # only add items with positive stock
+            if new_qty > 0:
+                entry = {
+                    'stock_id': str(uuid.uuid4()),
+                    'product_name': product_name,
+                    'quantity': new_qty,
+                    'is_actual': 1,
+                    'date': new_date,
+                    'time_of_day': 'opening'
+                }
+                if selling_price is not None:
+                    entry['selling_price'] = selling_price
+                new_stock_data.append(entry)
+
+        # Calculate total cost using the robust cost function
         total_cost = self._calculate_restock_cost(restock_plan, supplier_info)
-        print(type(old_balance), type(total_cost))
-        new_balance = float(old_balance) - float(total_cost)
+
+        # normalize old_balance -> numeric
+        try:
+            current_balance_val = float(old_balance)
+        except Exception:
+            try:
+                # if old_balance is a dict or list, attempt to extract
+                current_balance_val = float(old_balance[0].get('balance', 0))
+            except Exception:
+                current_balance_val = float(self.initial_budget)
+
+        new_balance = current_balance_val - float(total_cost)
 
         if new_balance < 0:
             raise ValueError("Restock plan exceeds available balance. Aborting transaction.")
-            
+
         new_balance_data = {
             'trans_id': str(uuid.uuid4()),
             'balance': str(new_balance),

@@ -4,9 +4,9 @@ from botocore.exceptions import BotoCoreError, ClientError
 region = "us-east-2"
 dynamodb = boto3.resource("dynamodb", region_name=region)
 
-events_table  = dynamodb.Table("events")   # PK: event_id
-stock_table   = dynamodb.Table("stock")    # PK: stock_id
-balance_table = dynamodb.Table("balance")  # PK: trans_id
+events_table  = dynamodb.Table("events_test")   # PK: event_id
+stock_table   = dynamodb.Table("stock_test")    # PK: stock_id
+balance_table = dynamodb.Table("balance_test")  # PK: trans_id
 
 def delete_all(table, pk_name: str, sk_name: str | None = None, progress_every: int = 100) -> int:
     """Delete all items from `table` using primary key attributes."""

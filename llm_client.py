@@ -6,5 +6,5 @@ def get_llm_client():
     For production, replace `MockClaudeClient()` with `Anthropic()`.
     """
     # Replace with `anthropic.Anthropic()` and your API key in a real application.
-    client = anthropic.Anthropic(api_key="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")
+    client = anthropic.Anthropic(api_key="")
     return client
