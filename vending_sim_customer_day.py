@@ -18,9 +18,9 @@ AWS_REGION       = "us-east-2"
 
 TABLE_CUSTOMERS  = "Customers"   # customer_id, sugar_pref, health, caffeine_pref, hunger, price_sensitivity, segment
 TABLE_SUPPLY     = "Supply"      # product_name, sugar_weight, health_weight, caffeine_weight, price
-TABLE_STOCK      = "stock"       # product_name, quantity, price, stock_id, is_actual
-TABLE_EVENTS     = "events"      # event_id (PK)
-TABLE_BALANCE    = "balance"     # trans_id (PK), is_active
+TABLE_STOCK      = "stock_test"       # product_name, quantity, price, stock_id, is_actual
+TABLE_EVENTS     = "events_test"      # event_id (PK)
+TABLE_BALANCE    = "balance_test"     # trans_id (PK), is_active
 
 OUT_PATH         = "vending_sim_results.json"
 
@@ -187,20 +187,6 @@ def batch_write_events(events_table, events: List[Dict[str, Any]]):
 def update_stock_actuals(stock_table, final_stock_state: Dict[str, Dict[str, Any]], sim_date: str, time_of_day: str = "closing"):
     # Mark existing actuals as non-actual
     items = scan_all(stock_table, FilterExpression=Attr("is_actual").eq(1))
-    for it in items:
-        stock_id = it.get("stock_id")
-        if not stock_id:
-            logging.warning("Encountered stock item without stock_id; skipping actual reset.")
-            continue
-        try:
-            stock_table.update_item(
-                Key={"stock_id": stock_id},
-                UpdateExpression="SET is_actual = :zero",
-                ExpressionAttributeValues={":zero": 0},
-            )
-        except Exception as e:
-            logging.warning(f"Failed to update stock actual flag for {stock_id}: {e}")
-
     # Insert fresh actual snapshot
     with stock_table.batch_writer() as batch:
         for name, meta in sorted(final_stock_state.items()):
@@ -342,7 +328,9 @@ def fulfill_purchase(requested_items, stock_state: Dict[str, Dict[str, Any]]):
     return fulfilled, rejected, round(total_spent, 2)
 
 # ----------------------- Orchestration -----------------------
-def main():
+def day_sim(date):
+    SIM_DATE = date
+    print(f"[{date}] Simulating all day...")
     configure_logging()
     rng = random.Random()
 
@@ -366,9 +354,9 @@ def main():
     events_to_write: List[Dict[str, Any]] = []
 
     try:
-        start_dt = datetime.strptime(f"{SIM_DATE} {START_TIME}", "%Y-%m-%d %H:%M:%S")
+        start_dt = datetime.strptime(f"{date} {START_TIME}", "%Y-%m-%d %H:%M:%S")
     except Exception:
-        start_dt = datetime.strptime(f"{SIM_DATE} 09:00:00", "%Y-%m-%d %H:%M:%S")
+        start_dt = datetime.strptime(f"{date} 09:00:00", "%Y-%m-%d %H:%M:%S")
     next_event_dt = start_dt
 
     interactions: List[Dict[str, Any]] = []
@@ -473,4 +461,4 @@ def main():
     logging.info("Done.")
 
 if __name__ == "__main__":
-    main()
+    day_sim()
