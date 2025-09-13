@@ -13,8 +13,9 @@ class Customer:
     caffeine_pref: float       # 0..1
     sugar_pref: float          # 0..1
     price_sensitivity: float   # higher => dislikes expensive items more
-    brand_loyalty: Dict[str, float]  # per-brand bump (+/-)
-    base_conversion: float     # probability of buying upon arrival
+    health: float       # 0..1
+    hunger: float       # 0..1
+
 
 def generate_customers(n: int) -> List[Customer]:
     segments = ["student", "professional", "early_bird", "night_owl", "athlete"]

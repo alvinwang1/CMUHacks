@@ -1,0 +1,280 @@
+{
+  "mode": "customer_only_day_dot_db_hardcoded",
+  "run_started_at": "2025-09-13T18:02:24.181188Z",
+  "run_finished_at": "2025-09-13T18:02:24.181194Z",
+  "total_planned_interactions": 10,
+  "total_completed_interactions": 10,
+  "total_amount_spent": 7.5,
+  "params": {
+    "PRICE_ALPHA_SCALE": 1.0,
+    "THRESHOLD_BASE": 0.0,
+    "HUNGER_BONUS": 0.25,
+    "EPSILON": 0.0
+  },
+  "starting_stock": {
+    "Aquafina": {
+      "quantity": 0,
+      "price": 1.5,
+      "stock_id": "09c49e62-20b3-4527-b87d-9bbf70788127"
+    },
+    "Fruit Snacks": {
+      "quantity": 0,
+      "price": 1.5,
+      "stock_id": "0a4437aa-9f36-4b77-bdb8-0a5962028bee"
+    },
+    "Trail Mix": {
+      "quantity": 0,
+      "price": 2.25,
+      "stock_id": "5d67ef43-ab7f-486f-97aa-1821fbcdb858"
+    },
+    "Pretzels": {
+      "quantity": 7,
+      "price": 1.5,
+      "stock_id": "6c1e3843-1a5c-42c8-b6a1-394544ccd6ac"
+    },
+    "Hot Coffee": {
+      "quantity": 0,
+      "price": 2.25,
+      "stock_id": "58a8eda1-3a2f-4863-b077-c8cd7737316a"
+    },
+    "Cheetos": {
+      "quantity": 10,
+      "price": 2.0,
+      "stock_id": "3c7b1beb-1aa1-4b87-85a6-ffbc9b5e6ea9"
+    },
+    "Water": {
+      "quantity": 0,
+      "price": 1.5,
+      "stock_id": "412a7984-8304-4ae6-8fbd-502ef32bdf40"
+    },
+    "Doritos": {
+      "quantity": 10,
+      "price": 2.0,
+      "stock_id": "b5895057-1dac-4007-b001-5e88a04352bc"
+    },
+    "M&Ms": {
+      "quantity": 0,
+      "price": 2.0,
+      "stock_id": "ee0dc86f-a1e1-4de7-9013-68b0d73bfb2d"
+    },
+    "Coca-cola": {
+      "quantity": 0,
+      "price": 2.0,
+      "stock_id": "6ad8f561-ca2e-4979-bcf1-ff11a776c099"
+    },
+    "Reese's": {
+      "quantity": 10,
+      "price": 0.0,
+      "stock_id": "e6e0e15f-cea0-4ac2-9082-244eeb0f47e4"
+    },
+    "Gatorade": {
+      "quantity": 0,
+      "price": 2.5,
+      "stock_id": "697c076f-7443-44e3-9016-912288378422"
+    },
+    "Granola Bar": {
+      "quantity": 0,
+      "price": 2.0,
+      "stock_id": "2e794edb-aff8-4fcb-8f96-c8c9b945d87f"
+    },
+    "Snickers bar": {
+      "quantity": 0,
+      "price": 2.0,
+      "stock_id": "fa03ea8b-15af-41c8-baba-a22af4806e2c"
+    },
+    "Dasani": {
+      "quantity": 0,
+      "price": 1.75,
+      "stock_id": "4d2356ae-7ccc-4d9d-a3d7-cba51b5e7251"
+    }
+  },
+  "ending_stock": {
+    "Aquafina": {
+      "quantity": 0,
+      "price": 1.5,
+      "stock_id": "09c49e62-20b3-4527-b87d-9bbf70788127"
+    },
+    "Fruit Snacks": {
+      "quantity": 0,
+      "price": 1.5,
+      "stock_id": "0a4437aa-9f36-4b77-bdb8-0a5962028bee"
+    },
+    "Trail Mix": {
+      "quantity": 0,
+      "price": 2.25,
+      "stock_id": "5d67ef43-ab7f-486f-97aa-1821fbcdb858"
+    },
+    "Pretzels": {
+      "quantity": 2,
+      "price": 1.5,
+      "stock_id": "6c1e3843-1a5c-42c8-b6a1-394544ccd6ac"
+    },
+    "Hot Coffee": {
+      "quantity": 0,
+      "price": 2.25,
+      "stock_id": "58a8eda1-3a2f-4863-b077-c8cd7737316a"
+    },
+    "Cheetos": {
+      "quantity": 10,
+      "price": 2.0,
+      "stock_id": "3c7b1beb-1aa1-4b87-85a6-ffbc9b5e6ea9"
+    },
+    "Water": {
+      "quantity": 0,
+      "price": 1.5,
+      "stock_id": "412a7984-8304-4ae6-8fbd-502ef32bdf40"
+    },
+    "Doritos": {
+      "quantity": 10,
+      "price": 2.0,
+      "stock_id": "b5895057-1dac-4007-b001-5e88a04352bc"
+    },
+    "M&Ms": {
+      "quantity": 0,
+      "price": 2.0,
+      "stock_id": "ee0dc86f-a1e1-4de7-9013-68b0d73bfb2d"
+    },
+    "Coca-cola": {
+      "quantity": 0,
+      "price": 2.0,
+      "stock_id": "6ad8f561-ca2e-4979-bcf1-ff11a776c099"
+    },
+    "Reese's": {
+      "quantity": 10,
+      "price": 0.0,
+      "stock_id": "e6e0e15f-cea0-4ac2-9082-244eeb0f47e4"
+    },
+    "Gatorade": {
+      "quantity": 0,
+      "price": 2.5,
+      "stock_id": "697c076f-7443-44e3-9016-912288378422"
+    },
+    "Granola Bar": {
+      "quantity": 0,
+      "price": 2.0,
+      "stock_id": "2e794edb-aff8-4fcb-8f96-c8c9b945d87f"
+    },
+    "Snickers bar": {
+      "quantity": 0,
+      "price": 2.0,
+      "stock_id": "fa03ea8b-15af-41c8-baba-a22af4806e2c"
+    },
+    "Dasani": {
+      "quantity": 0,
+      "price": 1.75,
+      "stock_id": "4d2356ae-7ccc-4d9d-a3d7-cba51b5e7251"
+    }
+  },
+  "interactions": [
+    {
+      "customer": "2c0caee7-6daf-4ca9-ba1a-40b81fa526bf",
+      "picked_item": "Pretzels",
+      "score": 0.005,
+      "fulfilled_items": [
+        "Pretzels"
+      ],
+      "rejected_items": [],
+      "amount_spent": 1.5,
+      "hunger": 0.6,
+      "price_sensitivity": 0.5
+    },
+    {
+      "customer": "25bdf4c8-34b3-457b-8199-f9a546c64288",
+      "picked_item": "Pretzels",
+      "score": -0.1075,
+      "fulfilled_items": [
+        "Pretzels"
+      ],
+      "rejected_items": [],
+      "amount_spent": 1.5,
+      "hunger": 0.72,
+      "price_sensitivity": 0.35
+    },
+    {
+      "customer": "bab3c82c-e57d-48f6-a074-46dc93de7a3b",
+      "picked_item": "Pretzels",
+      "score": 0.037,
+      "fulfilled_items": [
+        "Pretzels"
+      ],
+      "rejected_items": [],
+      "amount_spent": 1.5,
+      "hunger": 0.68,
+      "price_sensitivity": 0.22
+    },
+    {
+      "customer": "e29c7301-024b-46a2-9010-b950afc7db92",
+      "picked_item": null,
+      "score": -0.315,
+      "fulfilled_items": [],
+      "rejected_items": [],
+      "amount_spent": 0.0,
+      "hunger": 0.42,
+      "price_sensitivity": 0.68
+    },
+    {
+      "customer": "480c217f-4f0a-4d0c-a3bb-a57e3c684dbb",
+      "picked_item": null,
+      "score": -0.449,
+      "fulfilled_items": [],
+      "rejected_items": [],
+      "amount_spent": 0.0,
+      "hunger": 0.69,
+      "price_sensitivity": 0.82
+    },
+    {
+      "customer": "9f9ed002-c337-4e3b-8759-ba6af23a4293",
+      "picked_item": null,
+      "score": -0.323,
+      "fulfilled_items": [],
+      "rejected_items": [],
+      "amount_spent": 0.0,
+      "hunger": 0.52,
+      "price_sensitivity": 0.72
+    },
+    {
+      "customer": "9f9673a2-06d7-449a-8b70-daefeef536dd",
+      "picked_item": "Pretzels",
+      "score": -0.033,
+      "fulfilled_items": [
+        "Pretzels"
+      ],
+      "rejected_items": [],
+      "amount_spent": 1.5,
+      "hunger": 0.68,
+      "price_sensitivity": 0.22
+    },
+    {
+      "customer": "df1878b7-3941-46f0-b3cd-8e0f62511042",
+      "picked_item": null,
+      "score": -0.2675,
+      "fulfilled_items": [],
+      "rejected_items": [],
+      "amount_spent": 0.0,
+      "hunger": 0.62,
+      "price_sensitivity": 0.75
+    },
+    {
+      "customer": "f92fabfa-3c38-4be9-be7c-4d057cb04052",
+      "picked_item": null,
+      "score": -0.34,
+      "fulfilled_items": [],
+      "rejected_items": [],
+      "amount_spent": 0.0,
+      "hunger": 0.4,
+      "price_sensitivity": 0.8
+    },
+    {
+      "customer": "d739a86b-d8eb-4ee8-a364-4e1a411f5c72",
+      "picked_item": "Pretzels",
+      "score": -0.115,
+      "fulfilled_items": [
+        "Pretzels"
+      ],
+      "rejected_items": [],
+      "amount_spent": 1.5,
+      "hunger": 0.65,
+      "price_sensitivity": 0.6
+    }
+  ]
+}
