@@ -1,0 +1,800 @@
+[
+  {
+    "product_name": "Jolly Ranchers",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 1.5
+  },
+  {
+    "product_name": "Root Beer",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 2.0
+  },
+  {
+    "product_name": "Oat Milk",
+    "sugar_weight": 0.3,
+    "health_weight": 0.7,
+    "caffeine_weight": 0.0,
+    "price": 2.75
+  },
+  {
+    "product_name": "Pudding Cup",
+    "sugar_weight": 0.8,
+    "health_weight": 0.2,
+    "caffeine_weight": 0.0,
+    "price": 1.5
+  },
+  {
+    "product_name": "Sun Chips",
+    "sugar_weight": 0.1,
+    "health_weight": 0.4,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Sparkling Water",
+    "sugar_weight": 0.0,
+    "health_weight": 0.9,
+    "caffeine_weight": 0.0,
+    "price": 1.75
+  },
+  {
+    "product_name": "Cranberry Juice",
+    "sugar_weight": 0.7,
+    "health_weight": 0.5,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Evian",
+    "sugar_weight": 0.0,
+    "health_weight": 1.0,
+    "caffeine_weight": 0.0,
+    "price": 2.0
+  },
+  {
+    "product_name": "Crackers",
+    "sugar_weight": 0.1,
+    "health_weight": 0.5,
+    "caffeine_weight": 0.0,
+    "price": 1.5
+  },
+  {
+    "product_name": "Peanut Butter Crackers",
+    "sugar_weight": 0.3,
+    "health_weight": 0.5,
+    "caffeine_weight": 0.0,
+    "price": 1.75
+  },
+  {
+    "product_name": "Milky Way",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 1.5
+  },
+  {
+    "product_name": "Orange Juice",
+    "sugar_weight": 0.7,
+    "health_weight": 0.5,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Combos",
+    "sugar_weight": 0.2,
+    "health_weight": 0.3,
+    "caffeine_weight": 0.0,
+    "price": 1.75
+  },
+  {
+    "product_name": "Saltines",
+    "sugar_weight": 0.1,
+    "health_weight": 0.4,
+    "caffeine_weight": 0.0,
+    "price": 1.5
+  },
+  {
+    "product_name": "Hot Coffee",
+    "sugar_weight": 0.2,
+    "health_weight": 0.5,
+    "caffeine_weight": 0.9,
+    "price": 2.25
+  },
+  {
+    "product_name": "Hot Chocolate",
+    "sugar_weight": 0.8,
+    "health_weight": 0.2,
+    "caffeine_weight": 0.3,
+    "price": 2.25
+  },
+  {
+    "product_name": "Grape Juice",
+    "sugar_weight": 0.8,
+    "health_weight": 0.4,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Vitamin Water",
+    "sugar_weight": 0.4,
+    "health_weight": 0.6,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Pretzels",
+    "sugar_weight": 0.1,
+    "health_weight": 0.4,
+    "caffeine_weight": 0.0,
+    "price": 1.5
+  },
+  {
+    "product_name": "Twinkies",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 2.0
+  },
+  {
+    "product_name": "Mini Muffins",
+    "sugar_weight": 0.8,
+    "health_weight": 0.2,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Arnold Palmer",
+    "sugar_weight": 0.6,
+    "health_weight": 0.3,
+    "caffeine_weight": 0.4,
+    "price": 2.25
+  },
+  {
+    "product_name": "Perrier",
+    "sugar_weight": 0.0,
+    "health_weight": 0.7,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Nutella & Go",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 2.75
+  },
+  {
+    "product_name": "Chips Ahoy",
+    "sugar_weight": 0.7,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 2.0
+  },
+  {
+    "product_name": "LaCroix",
+    "sugar_weight": 0.0,
+    "health_weight": 0.8,
+    "caffeine_weight": 0.0,
+    "price": 2.0
+  },
+  {
+    "product_name": "Mac and Cheese Cup",
+    "sugar_weight": 0.2,
+    "health_weight": 0.3,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Chex Mix",
+    "sugar_weight": 0.1,
+    "health_weight": 0.4,
+    "caffeine_weight": 0.0,
+    "price": 2.0
+  },
+  {
+    "product_name": "Popcorn",
+    "sugar_weight": 0.1,
+    "health_weight": 0.4,
+    "caffeine_weight": 0.0,
+    "price": 2.0
+  },
+  {
+    "product_name": "Poptcorners",
+    "sugar_weight": 0.2,
+    "health_weight": 0.4,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Rice Krispies Treats",
+    "sugar_weight": 0.85,
+    "health_weight": 0.15,
+    "caffeine_weight": 0.0,
+    "price": 1.5
+  },
+  {
+    "product_name": "Swedish Fish",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 1.5
+  },
+  {
+    "product_name": "Cold Brew",
+    "sugar_weight": 0.2,
+    "health_weight": 0.4,
+    "caffeine_weight": 0.9,
+    "price": 3.5
+  },
+  {
+    "product_name": "Lipton Iced Tea",
+    "sugar_weight": 0.6,
+    "health_weight": 0.4,
+    "caffeine_weight": 0.3,
+    "price": 2.25
+  },
+  {
+    "product_name": "Little Debbie Brownie",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 1.25
+  },
+  {
+    "product_name": "Cup Noodles",
+    "sugar_weight": 0.3,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Chocolate Milk",
+    "sugar_weight": 0.8,
+    "health_weight": 0.3,
+    "caffeine_weight": 0.1,
+    "price": 2.25
+  },
+  {
+    "product_name": "Gatorade",
+    "sugar_weight": 0.7,
+    "health_weight": 0.3,
+    "caffeine_weight": 0.0,
+    "price": 2.5
+  },
+  {
+    "product_name": "Pineapple Juice",
+    "sugar_weight": 0.7,
+    "health_weight": 0.5,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Milk",
+    "sugar_weight": 0.3,
+    "health_weight": 0.7,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Skittles",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 2.0
+  },
+  {
+    "product_name": "Cheez-Its",
+    "sugar_weight": 0.2,
+    "health_weight": 0.3,
+    "caffeine_weight": 0.0,
+    "price": 2.0
+  },
+  {
+    "product_name": "Sour Patch Kids",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Apple Juice",
+    "sugar_weight": 0.8,
+    "health_weight": 0.4,
+    "caffeine_weight": 0.0,
+    "price": 2.0
+  },
+  {
+    "product_name": "KitKat",
+    "sugar_weight": 0.8,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.2,
+    "price": 1.5
+  },
+  {
+    "product_name": "Ruffles",
+    "sugar_weight": 0.1,
+    "health_weight": 0.2,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Trail Mix",
+    "sugar_weight": 0.3,
+    "health_weight": 0.7,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Starbucks Frappuccino",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.5,
+    "price": 3.25
+  },
+  {
+    "product_name": "Hershey\u2019s Bar",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.2,
+    "price": 1.75
+  },
+  {
+    "product_name": "Pepsi",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.4,
+    "price": 2.25
+  },
+  {
+    "product_name": "Animal Crackers",
+    "sugar_weight": 0.3,
+    "health_weight": 0.5,
+    "caffeine_weight": 0.0,
+    "price": 1.5
+  },
+  {
+    "product_name": "Pringles",
+    "sugar_weight": 0.1,
+    "health_weight": 0.2,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Clif Bar",
+    "sugar_weight": 0.5,
+    "health_weight": 0.7,
+    "caffeine_weight": 0.1,
+    "price": 2.5
+  },
+  {
+    "product_name": "Mike and Ike",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 1.5
+  },
+  {
+    "product_name": "Kettle Chips",
+    "sugar_weight": 0.1,
+    "health_weight": 0.3,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Tuna Snack Pack",
+    "sugar_weight": 0.1,
+    "health_weight": 0.7,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Nestea",
+    "sugar_weight": 0.7,
+    "health_weight": 0.2,
+    "caffeine_weight": 0.3,
+    "price": 2.25
+  },
+  {
+    "product_name": "M&Ms",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.1,
+    "price": 2.0
+  },
+  {
+    "product_name": "Haribo Gummies",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Dasani",
+    "sugar_weight": 0.0,
+    "health_weight": 0.7,
+    "caffeine_weight": 0.0,
+    "price": 1.75
+  },
+  {
+    "product_name": "Iced Coffee",
+    "sugar_weight": 0.4,
+    "health_weight": 0.3,
+    "caffeine_weight": 0.9,
+    "price": 2.75
+  },
+  {
+    "product_name": "Lenny & Larry\u2019s Cookie",
+    "sugar_weight": 0.6,
+    "health_weight": 0.4,
+    "caffeine_weight": 0.0,
+    "price": 2.75
+  },
+  {
+    "product_name": "Applesauce Cup",
+    "sugar_weight": 0.4,
+    "health_weight": 0.7,
+    "caffeine_weight": 0.0,
+    "price": 1.5
+  },
+  {
+    "product_name": "Smartwater",
+    "sugar_weight": 0.0,
+    "health_weight": 0.8,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Oreo Pack",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 2.0
+  },
+  {
+    "product_name": "Fanta",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Doritos",
+    "sugar_weight": 0.1,
+    "health_weight": 0.2,
+    "caffeine_weight": 0.0,
+    "price": 2.0
+  },
+  {
+    "product_name": "Celsius",
+    "sugar_weight": 0.2,
+    "health_weight": 0.6,
+    "caffeine_weight": 0.9,
+    "price": 3.5
+  },
+  {
+    "product_name": "Aquafina",
+    "sugar_weight": 0.0,
+    "health_weight": 0.9,
+    "caffeine_weight": 0.0,
+    "price": 1.5
+  },
+  {
+    "product_name": "Powerade",
+    "sugar_weight": 0.7,
+    "health_weight": 0.3,
+    "caffeine_weight": 0.0,
+    "price": 2.5
+  },
+  {
+    "product_name": "Almond Milk",
+    "sugar_weight": 0.2,
+    "health_weight": 0.8,
+    "caffeine_weight": 0.0,
+    "price": 2.75
+  },
+  {
+    "product_name": "Graham Crackers",
+    "sugar_weight": 0.4,
+    "health_weight": 0.5,
+    "caffeine_weight": 0.0,
+    "price": 1.75
+  },
+  {
+    "product_name": "Funyuns",
+    "sugar_weight": 0.1,
+    "health_weight": 0.2,
+    "caffeine_weight": 0.0,
+    "price": 1.5
+  },
+  {
+    "product_name": "Red Bull",
+    "sugar_weight": 0.7,
+    "health_weight": 0.2,
+    "caffeine_weight": 0.9,
+    "price": 3.0
+  },
+  {
+    "product_name": "7 Up",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 2.0
+  },
+  {
+    "product_name": "Butterfinger",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 1.75
+  },
+  {
+    "product_name": "Lifesavers",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 1.5
+  },
+  {
+    "product_name": "Mountain Dew",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.5,
+    "price": 2.0
+  },
+  {
+    "product_name": "Pop-Tarts",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Diet Pepsi",
+    "sugar_weight": 0.1,
+    "health_weight": 0.4,
+    "caffeine_weight": 0.6,
+    "price": 2.25
+  },
+  {
+    "product_name": "Protein bar",
+    "sugar_weight": 0.3,
+    "health_weight": 0.7,
+    "caffeine_weight": 0.1,
+    "price": 2.5
+  },
+  {
+    "product_name": "San Pellegrino",
+    "sugar_weight": 0.4,
+    "health_weight": 0.6,
+    "caffeine_weight": 0.0,
+    "price": 2.5
+  },
+  {
+    "product_name": "Twix",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 1.5
+  },
+  {
+    "product_name": "Jello Cup",
+    "sugar_weight": 0.8,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 1.25
+  },
+  {
+    "product_name": "Soy Milk",
+    "sugar_weight": 0.3,
+    "health_weight": 0.8,
+    "caffeine_weight": 0.0,
+    "price": 2.5
+  },
+  {
+    "product_name": "Starburst",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 1.5
+  },
+  {
+    "product_name": "Nerds",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 1.5
+  },
+  {
+    "product_name": "Fiji Water",
+    "sugar_weight": 0.0,
+    "health_weight": 1.0,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Monster Energy",
+    "sugar_weight": 0.8,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.9,
+    "price": 3.0
+  },
+  {
+    "product_name": "Juice Box",
+    "sugar_weight": 0.7,
+    "health_weight": 0.4,
+    "caffeine_weight": 0.0,
+    "price": 1.75
+  },
+  {
+    "product_name": "Nature Valley Bar",
+    "sugar_weight": 0.4,
+    "health_weight": 0.6,
+    "caffeine_weight": 0.0,
+    "price": 1.5
+  },
+  {
+    "product_name": "Slim Jim",
+    "sugar_weight": 0.1,
+    "health_weight": 0.3,
+    "caffeine_weight": 0.0,
+    "price": 1.5
+  },
+  {
+    "product_name": "3 Musketeers",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 1.5
+  },
+  {
+    "product_name": "Sprite",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Rice Cakes",
+    "sugar_weight": 0.1,
+    "health_weight": 0.8,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Beef Jerky",
+    "sugar_weight": 0.2,
+    "health_weight": 0.6,
+    "caffeine_weight": 0.0,
+    "price": 2.75
+  },
+  {
+    "product_name": "Ding Dongs",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 1.5
+  },
+  {
+    "product_name": "Cheetos",
+    "sugar_weight": 0.1,
+    "health_weight": 0.2,
+    "caffeine_weight": 0.0,
+    "price": 2.0
+  },
+  {
+    "product_name": "Water",
+    "sugar_weight": 0.0,
+    "health_weight": 1.0,
+    "caffeine_weight": 0.0,
+    "price": 1.5
+  },
+  {
+    "product_name": "Hostess Cupcake",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.0,
+    "price": 2.0
+  },
+  {
+    "product_name": "Lemonade",
+    "sugar_weight": 0.8,
+    "health_weight": 0.2,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Granola Bar",
+    "sugar_weight": 0.4,
+    "health_weight": 0.6,
+    "caffeine_weight": 0.0,
+    "price": 2.0
+  },
+  {
+    "product_name": "Fruit Snacks",
+    "sugar_weight": 0.7,
+    "health_weight": 0.3,
+    "caffeine_weight": 0.0,
+    "price": 1.5
+  },
+  {
+    "product_name": "Arizona Tea",
+    "sugar_weight": 0.8,
+    "health_weight": 0.2,
+    "caffeine_weight": 0.3,
+    "price": 1.5
+  },
+  {
+    "product_name": "Iced Tea",
+    "sugar_weight": 0.6,
+    "health_weight": 0.4,
+    "caffeine_weight": 0.3,
+    "price": 2.25
+  },
+  {
+    "product_name": "Lay\u2019s",
+    "sugar_weight": 0.1,
+    "health_weight": 0.2,
+    "caffeine_weight": 0.0,
+    "price": 2.0
+  },
+  {
+    "product_name": "Coca-cola",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.3,
+    "price": 2.0
+  },
+  {
+    "product_name": "Goldfish",
+    "sugar_weight": 0.1,
+    "health_weight": 0.4,
+    "caffeine_weight": 0.0,
+    "price": 2.25
+  },
+  {
+    "product_name": "Fig Newtons",
+    "sugar_weight": 0.6,
+    "health_weight": 0.4,
+    "caffeine_weight": 0.0,
+    "price": 2.0
+  },
+  {
+    "product_name": "Dr Pepper",
+    "sugar_weight": 0.8,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.5,
+    "price": 2.25
+  },
+  {
+    "product_name": "Snickers bar",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.1,
+    "price": 2.0
+  },
+  {
+    "product_name": "Reese\u2019s",
+    "sugar_weight": 0.9,
+    "health_weight": 0.1,
+    "caffeine_weight": 0.1,
+    "price": 1.5
+  },
+  {
+    "product_name": "Instant Ramen",
+    "sugar_weight": 0.2,
+    "health_weight": 0.3,
+    "caffeine_weight": 0.0,
+    "price": 1.25
+  },
+  {
+    "product_name": "Diet Coke",
+    "sugar_weight": 0.1,
+    "health_weight": 0.3,
+    "caffeine_weight": 0.7,
+    "price": 2.25
+  }
+]

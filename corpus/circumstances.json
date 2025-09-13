@@ -1,0 +1,72 @@
+{
+    "High School Student": {
+      "After Practice": "It’s a hot afternoon after soccer practice, and they’re sweaty, thirsty, and eager for something cold and sweet.",
+      "Rainy Pickup": "It’s raining outside, and they’re waiting alone for a late pickup, bored and looking for comfort food.",
+      "With Friends": "They’re hanging out with three friends after school, everyone pooling coins to buy multiple snacks together.",
+      "Exam Stress": "It’s exam week, and they’re stressed, needing quick energy before a study session.",
+      "Extra Change": "They just received a few extra coins from lunch change, feeling playful and wanting to try something new."
+    },
+    "College Athlete": {
+      "Pre-Practice": "It’s early morning before practice, and they’re craving something light and energizing, like a protein bar.",
+      "Post-Run": "After a long run in hot weather, they feel dehydrated and seek a sports drink from the machine.",
+      "Rainy Afternoon": "On a rainy afternoon between lectures, they’re stuck indoors and decide to grab a snack for comfort.",
+      "Exam Boost": "Feeling stressed before an exam, they allow themselves to indulge in a soda, rationalizing it as quick energy.",
+      "Late Gym Night": "Late evening after the gym, they’re hungry but still trying to stay disciplined with healthier options."
+    },
+    "Night Shift Worker": {
+      "Midnight Fatigue": "It’s 2 a.m. during a quiet shift, and fatigue is hitting hard — they need caffeine fast.",
+      "Stormy Hunger": "On a stormy night, they’re restless and hungry, looking for something warm or filling.",
+      "Break with Colleague": "They’re on break chatting with a fellow guard, and both decide to grab salty snacks together.",
+      "Payday Treat": "After payday, they feel less restricted about cost and pick both a drink and snack indulgently.",
+      "End of Shift Reward": "Near the end of their shift, they’re tempted by a sweet treat as a small reward for getting through the night."
+    },
+    "Busy Parent": {
+      "Game Break": "It’s late afternoon at their kid’s basketball game, and they want something quick before heading back to errands.",
+      "Carpool Fatigue": "They’re waiting in a carpool pickup line, tired and craving a caffeine boost.",
+      "Weekend with Child": "On a sunny weekend, their child tags along, and they pick a snack to share.",
+      "Stressful Day": "After a stressful workday, they feel like indulging in something sugary while waiting in the lobby.",
+      "Rainy Determination": "It’s a rainy weekday, and they’re determined to make a healthier choice to balance out the family’s fast-food dinners."
+    },
+    "Retiree on the Go": {
+      "Morning Walk": "It’s a cool spring morning after a walk, and they want a juice as a refreshing treat.",
+      "Bingo Break": "At the community center between games of bingo, they feel like browsing and buying cookies.",
+      "Rainy Wait": "It’s a rainy afternoon, and they’re waiting for a bus, craving something comforting.",
+      "With Grandchild": "They’re with a grandchild, happily buying a small snack to share.",
+      "Quiet Nostalgia": "On a quiet weekday, they’re alone and browsing slowly, finally settling on a nostalgic treat."
+    },
+    "Tech Startup Employee": {
+      "Morning Rush": "It’s mid-morning in the office, and they’re rushing to a meeting, grabbing an energy drink without hesitation.",
+      "Late Night Grind": "At 9 p.m., still at work, they’re exhausted and pick chips to push through.",
+      "Stress Relief": "After a stressful team call, they treat themselves to candy as a mood boost.",
+      "Productive Mood": "On a productive afternoon, they’re feeling good and casually grab sparkling water instead of soda.",
+      "Coworker Chat": "They’re chatting with a coworker in front of the machine, both laughing and picking random items impulsively."
+    },
+    "Health-Conscious Gym-Goer": {
+      "Post-Workout": "It’s early morning post-workout, and they want a protein bar to refuel.",
+      "Hot Afternoon": "On a hot afternoon, they’re tempted by cold water but briefly eye the sodas.",
+      "After Work Hunger": "After a long day at work, they’re hungry and debating between nuts and chips.",
+      "Cheat Day": "During a “cheat day,” they allow themselves a chocolate bar and feel half-guilty, half-happy.",
+      "With Friend": "At the gym lobby with a friend, they lecture about healthy eating while still considering a salty snack."
+    },
+    "Middle School Teacher": {
+      "Morning Break": "It’s mid-morning during a short break, and they need a quick coffee drink before class.",
+      "End of Day": "After a chaotic day, they’re drained and treat themselves to chocolate.",
+      "Rainy Hurry": "On a rainy afternoon, they’re in a hurry but grab chips while heading back to class.",
+      "Planning Period": "During a planning period, they’re alone and actually take a moment to browse slowly.",
+      "Last Class Boost": "Right before the last class of the day, they need a sugar boost to power through."
+    },
+    "Frequent Traveler": {
+      "Airport Morning": "It’s early morning at an airport, and they buy bottled water before boarding.",
+      "Jet Lag": "After a long flight, they’re jet-lagged and grab comfort food from a hotel vending machine.",
+      "Rainy Layover": "On a rainy layover, they’re feeling lonely and indulge in candy for distraction.",
+      "Conference Caffeine": "Between conference sessions, they need a quick caffeine boost to stay sharp.",
+      "Train Station Night": "At a late-night train station, they’re tired but still want a familiar brand soda to feel grounded."
+    },
+    "Jordan": {
+      "Afternoon Stress": "It’s mid-afternoon at the office, and they’re stressed, eyeing candy bars as a quick pick-me-up.",
+      "Productive Morning": "On a productive morning, they feel motivated to choose something lighter like bottled water.",
+      "Late Workday": "During a late workday, they’re alone and indulge in soda despite knowing it’s not the healthiest.",
+      "Small Reward": "After a small success at work, they reward themselves with chips, smiling to themselves.",
+      "Rainy Impatience": "On a rainy day with slow progress, they get impatient when the machine lags, sighing while buying a snack."
+    }
+  }
