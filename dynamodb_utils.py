@@ -22,10 +22,10 @@ class DynamoDBManager:
         """Helper to get the single current 'is_actual' entry."""
         table = self.tables['stock']
         try:
-            # Note: A scan is used for simplicity. For a large dataset, a GSI on 'is_actual' would be more efficient.
             response = table.scan(
                 FilterExpression=boto3.dynamodb.conditions.Attr('is_actual').eq(1) & boto3.dynamodb.conditions.Attr('time_of_day').eq('closing') # & boto3.dynamodb.conditions.Attr('time').begins_with(current_date)
             )
+            assert len(response.get('Items', [])) <= 10, "More than 10 products found in the stock table"
             return response.get('Items', [])
         except ClientError as e:
             print(f"Error scanning table Stock: {e}")

@@ -1,7 +1,7 @@
 {
   "mode": "customer_only_day_dot_db_hardcoded",
-  "run_started_at": "2025-09-13T20:17:24.107498Z",
-  "run_finished_at": "2025-09-13T20:17:24.107505Z",
+  "run_started_at": "2025-09-13T20:18:35.974443Z",
+  "run_finished_at": "2025-09-13T20:18:35.974450Z",
   "total_planned_interactions": 10,
   "total_completed_interactions": 10,
   "total_amount_spent": 20.0,
@@ -12,237 +12,257 @@
     "EPSILON": 0.0
   },
   "starting_stock": {
-    "Sun Chips": {
+    "Peanut Butter Crackers": {
       "quantity": 10,
-      "price": 2.25,
-      "stock_id": "04eed117-7304-4a30-9a53-8c4c294b33a6"
+      "price": 1.75,
+      "stock_id": "48cee362-0f5d-4d83-a4e0-4f9262fa2a5c"
     },
-    "Trail Mix": {
-      "quantity": 10,
-      "price": 2.25,
-      "stock_id": "9776065b-1d5c-4361-a202-e4d93047245d"
-    },
-    "LaCroix": {
-      "quantity": 10,
-      "price": 2.0,
-      "stock_id": "ff3c7833-5e1e-4066-9457-6d9ba439f505"
-    },
-    "San Pellegrino": {
-      "quantity": 10,
-      "price": 2.5,
-      "stock_id": "25b3018a-bf38-4fbb-b3c2-eed3482ef9f5"
-    },
-    "Snickers bar": {
-      "quantity": 10,
-      "price": 2.0,
-      "stock_id": "a44ebacd-89bd-4148-8358-770086b82d14"
-    },
-    "Beef Jerky": {
+    "Nutella & Go": {
       "quantity": 10,
       "price": 2.75,
-      "stock_id": "29df0eb1-a9a2-4078-9fd1-32c1d664e923"
-    },
-    "Evian": {
-      "quantity": 10,
-      "price": 2.0,
-      "stock_id": "f2b68b3f-62bd-4dec-9534-5e947d918a11"
-    },
-    "Smartwater": {
-      "quantity": 10,
-      "price": 2.25,
-      "stock_id": "dac12a58-37ca-4ab2-bdb3-fcada5109b71"
-    },
-    "Protein bar": {
-      "quantity": 10,
-      "price": 2.5,
-      "stock_id": "72f35d6c-648e-4a6d-a25d-59d36c0ce0f5"
-    },
-    "Oreo Pack": {
-      "quantity": 10,
-      "price": 2.0,
-      "stock_id": "0bbef0e2-3f84-4be6-8ce1-021acd7cea93"
+      "stock_id": "05be057e-60e0-4f14-b4fa-2fca23782b78"
     },
     "Vitamin Water": {
       "quantity": 10,
       "price": 2.25,
-      "stock_id": "250c8916-53f8-42b0-9ee2-dbf7ff3b89cf"
-    },
-    "Rice Cakes": {
-      "quantity": 10,
-      "price": 2.25,
-      "stock_id": "93b2b5e9-685b-4f32-8ced-8fa9ce9236c6"
-    },
-    "Clif Bar": {
-      "quantity": 10,
-      "price": 2.5,
-      "stock_id": "ad474d60-ee4f-4055-b33d-1af560175e2a"
-    },
-    "Granola Bar": {
-      "quantity": 10,
-      "price": 2.0,
-      "stock_id": "a092d5dc-80af-40de-aec1-7c5563ebc8eb"
-    },
-    "Tuna Snack Pack": {
-      "quantity": 10,
-      "price": 2.25,
-      "stock_id": "7bb90518-4a4c-47b0-9a55-a8dad3438815"
-    },
-    "Sparkling Water": {
-      "quantity": 9,
-      "price": 1.75,
-      "stock_id": "14c5714f-1584-4e77-a695-0a68852277a7"
-    },
-    "Pepsi": {
-      "quantity": 10,
-      "price": 2.25,
-      "stock_id": "f48c1e9e-5ed0-4174-b5ac-23f659fb90d9"
-    },
-    "Nature Valley Bar": {
-      "quantity": 10,
-      "price": 1.5,
-      "stock_id": "c95395aa-0588-46fb-b07b-6c073e0b7932"
-    },
-    "Oat Milk": {
-      "quantity": 10,
-      "price": 2.75,
-      "stock_id": "b9f6b816-f467-4be4-84ed-01761aed1565"
-    },
-    "Celsius": {
-      "quantity": 10,
-      "price": 3.5,
-      "stock_id": "6220f30d-e458-4424-b4f3-9d0c429f0b99"
-    },
-    "Apple Juice": {
-      "quantity": 10,
-      "price": 2.0,
-      "stock_id": "1deabdb2-d0b2-4e49-bfdc-c1647bdfc65f"
-    },
-    "Sprite": {
-      "quantity": 10,
-      "price": 2.25,
-      "stock_id": "06ec76d3-beb8-4a9a-8faa-1cb7ed5f4cb9"
+      "stock_id": "0e5bf591-8b1e-4005-a5c3-abdf91d0227d"
     },
     "Goldfish": {
       "quantity": 10,
       "price": 2.25,
-      "stock_id": "31b646c3-95ea-4940-aad1-0f60b99068b4"
-    }
-  },
-  "ending_stock": {
-    "Sun Chips": {
-      "quantity": 10,
-      "price": 2.25,
-      "stock_id": "04eed117-7304-4a30-9a53-8c4c294b33a6"
-    },
-    "Trail Mix": {
-      "quantity": 10,
-      "price": 2.25,
-      "stock_id": "9776065b-1d5c-4361-a202-e4d93047245d"
-    },
-    "LaCroix": {
-      "quantity": 10,
-      "price": 2.0,
-      "stock_id": "ff3c7833-5e1e-4066-9457-6d9ba439f505"
-    },
-    "San Pellegrino": {
-      "quantity": 10,
-      "price": 2.5,
-      "stock_id": "25b3018a-bf38-4fbb-b3c2-eed3482ef9f5"
-    },
-    "Snickers bar": {
-      "quantity": 10,
-      "price": 2.0,
-      "stock_id": "a44ebacd-89bd-4148-8358-770086b82d14"
-    },
-    "Beef Jerky": {
-      "quantity": 10,
-      "price": 2.75,
-      "stock_id": "29df0eb1-a9a2-4078-9fd1-32c1d664e923"
-    },
-    "Evian": {
-      "quantity": 9,
-      "price": 2.0,
-      "stock_id": "f2b68b3f-62bd-4dec-9534-5e947d918a11"
+      "stock_id": "bea9697f-92d8-4b89-a5fa-5f45273915fc"
     },
     "Smartwater": {
       "quantity": 10,
       "price": 2.25,
-      "stock_id": "dac12a58-37ca-4ab2-bdb3-fcada5109b71"
+      "stock_id": "e55e9276-5b2f-4906-b5d3-03786c78e908"
     },
-    "Protein bar": {
+    "Celsius": {
       "quantity": 10,
-      "price": 2.5,
-      "stock_id": "72f35d6c-648e-4a6d-a25d-59d36c0ce0f5"
+      "price": 3.5,
+      "stock_id": "28363c0c-ad7e-4e1e-b49d-72087149c45e"
+    },
+    "Evian": {
+      "quantity": 10,
+      "price": 2.0,
+      "stock_id": "65eba7cc-e49c-4a70-b5e5-b7ce1bed69f2"
+    },
+    "Snickers bar": {
+      "quantity": 10,
+      "price": 2.0,
+      "stock_id": "af501d35-9f2e-4e57-b097-2d0b7e39f441"
+    },
+    "Sprite": {
+      "quantity": 10,
+      "price": 2.25,
+      "stock_id": "d4ac5a7e-fbc6-42b3-9763-0ba9403999aa"
     },
     "Oreo Pack": {
       "quantity": 10,
       "price": 2.0,
-      "stock_id": "0bbef0e2-3f84-4be6-8ce1-021acd7cea93"
+      "stock_id": "b0d3bfaf-4377-402e-9bf1-9f64b2665683"
     },
-    "Vitamin Water": {
+    "Beef Jerky": {
+      "quantity": 10,
+      "price": 2.75,
+      "stock_id": "59f08b4b-4b4f-4579-af61-814ae5223a15"
+    },
+    "Sun Chips": {
       "quantity": 10,
       "price": 2.25,
-      "stock_id": "250c8916-53f8-42b0-9ee2-dbf7ff3b89cf"
-    },
-    "Rice Cakes": {
-      "quantity": 10,
-      "price": 2.25,
-      "stock_id": "93b2b5e9-685b-4f32-8ced-8fa9ce9236c6"
-    },
-    "Clif Bar": {
-      "quantity": 10,
-      "price": 2.5,
-      "stock_id": "ad474d60-ee4f-4055-b33d-1af560175e2a"
+      "stock_id": "e39d5f5c-dab6-4d50-96a9-c70b9892cd96"
     },
     "Granola Bar": {
       "quantity": 10,
       "price": 2.0,
-      "stock_id": "a092d5dc-80af-40de-aec1-7c5563ebc8eb"
+      "stock_id": "c12eb309-9581-4b7c-9e36-f6aae8a9f469"
     },
     "Tuna Snack Pack": {
       "quantity": 10,
       "price": 2.25,
-      "stock_id": "7bb90518-4a4c-47b0-9a55-a8dad3438815"
+      "stock_id": "5eb4821c-6ec6-4742-93fd-953bfeeaf3f9"
     },
-    "Sparkling Water": {
-      "quantity": 9,
-      "price": 1.75,
-      "stock_id": "14c5714f-1584-4e77-a695-0a68852277a7"
+    "Oat Milk": {
+      "quantity": 10,
+      "price": 2.75,
+      "stock_id": "4a926200-c929-4865-ba0a-e026998f5d95"
+    },
+    "Nature Valley Bar": {
+      "quantity": 10,
+      "price": 1.5,
+      "stock_id": "9d8a1cd1-c67b-4ff9-805f-1a7152ee9f49"
     },
     "Pepsi": {
-      "quantity": 4,
+      "quantity": 10,
       "price": 2.25,
-      "stock_id": "f48c1e9e-5ed0-4174-b5ac-23f659fb90d9"
+      "stock_id": "db0de49c-a019-45cc-979a-b8e6a03a702e"
+    },
+    "Apple Juice": {
+      "quantity": 10,
+      "price": 2.0,
+      "stock_id": "7aa20315-020e-468a-967e-a769622e8555"
+    },
+    "Sparkling Water": {
+      "quantity": 10,
+      "price": 1.75,
+      "stock_id": "452a290b-43c3-41fd-8132-8169007bbe00"
+    },
+    "LaCroix": {
+      "quantity": 10,
+      "price": 2.0,
+      "stock_id": "abcb8eea-6bae-404a-a4b5-dab69cadb4b6"
+    },
+    "Protein bar": {
+      "quantity": 10,
+      "price": 2.5,
+      "stock_id": "021ff283-1c04-4d7b-bed2-eb87bd8077df"
+    },
+    "San Pellegrino": {
+      "quantity": 10,
+      "price": 2.5,
+      "stock_id": "491fee73-28aa-4093-aed5-8c7ebf3b7378"
+    },
+    "Rice Cakes": {
+      "quantity": 10,
+      "price": 2.25,
+      "stock_id": "135ceb5a-83cd-49e1-a73c-39c13ffc8318"
+    },
+    "Clif Bar": {
+      "quantity": 10,
+      "price": 2.5,
+      "stock_id": "1137d88c-32e2-4293-9ef8-8e12af0f51ba"
+    },
+    "Trail Mix": {
+      "quantity": 10,
+      "price": 2.25,
+      "stock_id": "2dea8420-6a27-40d5-8160-d280ba520319"
+    }
+  },
+  "ending_stock": {
+    "Peanut Butter Crackers": {
+      "quantity": 10,
+      "price": 1.75,
+      "stock_id": "48cee362-0f5d-4d83-a4e0-4f9262fa2a5c"
+    },
+    "Nutella & Go": {
+      "quantity": 10,
+      "price": 2.75,
+      "stock_id": "05be057e-60e0-4f14-b4fa-2fca23782b78"
+    },
+    "Vitamin Water": {
+      "quantity": 10,
+      "price": 2.25,
+      "stock_id": "0e5bf591-8b1e-4005-a5c3-abdf91d0227d"
+    },
+    "Goldfish": {
+      "quantity": 10,
+      "price": 2.25,
+      "stock_id": "bea9697f-92d8-4b89-a5fa-5f45273915fc"
+    },
+    "Smartwater": {
+      "quantity": 10,
+      "price": 2.25,
+      "stock_id": "e55e9276-5b2f-4906-b5d3-03786c78e908"
+    },
+    "Celsius": {
+      "quantity": 10,
+      "price": 3.5,
+      "stock_id": "28363c0c-ad7e-4e1e-b49d-72087149c45e"
+    },
+    "Evian": {
+      "quantity": 9,
+      "price": 2.0,
+      "stock_id": "65eba7cc-e49c-4a70-b5e5-b7ce1bed69f2"
+    },
+    "Snickers bar": {
+      "quantity": 10,
+      "price": 2.0,
+      "stock_id": "af501d35-9f2e-4e57-b097-2d0b7e39f441"
+    },
+    "Sprite": {
+      "quantity": 10,
+      "price": 2.25,
+      "stock_id": "d4ac5a7e-fbc6-42b3-9763-0ba9403999aa"
+    },
+    "Oreo Pack": {
+      "quantity": 10,
+      "price": 2.0,
+      "stock_id": "b0d3bfaf-4377-402e-9bf1-9f64b2665683"
+    },
+    "Beef Jerky": {
+      "quantity": 10,
+      "price": 2.75,
+      "stock_id": "59f08b4b-4b4f-4579-af61-814ae5223a15"
+    },
+    "Sun Chips": {
+      "quantity": 10,
+      "price": 2.25,
+      "stock_id": "e39d5f5c-dab6-4d50-96a9-c70b9892cd96"
+    },
+    "Granola Bar": {
+      "quantity": 10,
+      "price": 2.0,
+      "stock_id": "c12eb309-9581-4b7c-9e36-f6aae8a9f469"
+    },
+    "Tuna Snack Pack": {
+      "quantity": 10,
+      "price": 2.25,
+      "stock_id": "5eb4821c-6ec6-4742-93fd-953bfeeaf3f9"
+    },
+    "Oat Milk": {
+      "quantity": 10,
+      "price": 2.75,
+      "stock_id": "4a926200-c929-4865-ba0a-e026998f5d95"
     },
     "Nature Valley Bar": {
       "quantity": 7,
       "price": 1.5,
-      "stock_id": "c95395aa-0588-46fb-b07b-6c073e0b7932"
+      "stock_id": "9d8a1cd1-c67b-4ff9-805f-1a7152ee9f49"
     },
-    "Oat Milk": {
-      "quantity": 10,
-      "price": 2.75,
-      "stock_id": "b9f6b816-f467-4be4-84ed-01761aed1565"
-    },
-    "Celsius": {
-      "quantity": 10,
-      "price": 3.5,
-      "stock_id": "6220f30d-e458-4424-b4f3-9d0c429f0b99"
+    "Pepsi": {
+      "quantity": 4,
+      "price": 2.25,
+      "stock_id": "db0de49c-a019-45cc-979a-b8e6a03a702e"
     },
     "Apple Juice": {
       "quantity": 10,
       "price": 2.0,
-      "stock_id": "1deabdb2-d0b2-4e49-bfdc-c1647bdfc65f"
+      "stock_id": "7aa20315-020e-468a-967e-a769622e8555"
     },
-    "Sprite": {
+    "Sparkling Water": {
+      "quantity": 10,
+      "price": 1.75,
+      "stock_id": "452a290b-43c3-41fd-8132-8169007bbe00"
+    },
+    "LaCroix": {
+      "quantity": 10,
+      "price": 2.0,
+      "stock_id": "abcb8eea-6bae-404a-a4b5-dab69cadb4b6"
+    },
+    "Protein bar": {
+      "quantity": 10,
+      "price": 2.5,
+      "stock_id": "021ff283-1c04-4d7b-bed2-eb87bd8077df"
+    },
+    "San Pellegrino": {
+      "quantity": 10,
+      "price": 2.5,
+      "stock_id": "491fee73-28aa-4093-aed5-8c7ebf3b7378"
+    },
+    "Rice Cakes": {
       "quantity": 10,
       "price": 2.25,
-      "stock_id": "06ec76d3-beb8-4a9a-8faa-1cb7ed5f4cb9"
+      "stock_id": "135ceb5a-83cd-49e1-a73c-39c13ffc8318"
     },
-    "Goldfish": {
+    "Clif Bar": {
+      "quantity": 10,
+      "price": 2.5,
+      "stock_id": "1137d88c-32e2-4293-9ef8-8e12af0f51ba"
+    },
+    "Trail Mix": {
       "quantity": 10,
       "price": 2.25,
-      "stock_id": "31b646c3-95ea-4940-aad1-0f60b99068b4"
+      "stock_id": "2dea8420-6a27-40d5-8160-d280ba520319"
     }
   },
   "interactions": [
