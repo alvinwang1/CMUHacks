@@ -1,0 +1,200 @@
+{
+  "mode": "customer_only_day_dot_db_hardcoded",
+  "run_started_at": "2025-09-13T19:20:51.401377Z",
+  "run_finished_at": "2025-09-13T19:20:51.401381Z",
+  "total_planned_interactions": 10,
+  "total_completed_interactions": 10,
+  "total_amount_spent": 19.0,
+  "params": {
+    "PRICE_ALPHA_SCALE": 1.0,
+    "THRESHOLD_BASE": 0.0,
+    "HUNGER_BONUS": 0.25,
+    "EPSILON": 0.0
+  },
+  "starting_stock": {
+    "Smartwater": {
+      "quantity": 10,
+      "price": 2.25,
+      "stock_id": "a1f94cc0-b23c-4617-b081-0e11d07cd30d"
+    },
+    "Snickers bar": {
+      "quantity": 10,
+      "price": 2.0,
+      "stock_id": "48bccf1c-36b6-4ef2-b972-bce4c5c8364e"
+    },
+    "Trail Mix": {
+      "quantity": 10,
+      "price": 2.25,
+      "stock_id": "75137d3b-43c5-42a3-babb-ba1ffd193294"
+    },
+    "Clif Bar": {
+      "quantity": 10,
+      "price": 2.5,
+      "stock_id": "4c368e8f-0a47-4a2f-b407-5628df33b13e"
+    },
+    "Sparkling Water": {
+      "quantity": 10,
+      "price": 1.75,
+      "stock_id": "0a6c6c54-a20a-496c-b686-4d3641b88f2f"
+    },
+    "Granola Bar": {
+      "quantity": 10,
+      "price": 2.0,
+      "stock_id": "c5a3339a-ceea-4c40-aeb8-9322fef95b0a"
+    }
+  },
+  "ending_stock": {
+    "Smartwater": {
+      "quantity": 10,
+      "price": 2.25,
+      "stock_id": "a1f94cc0-b23c-4617-b081-0e11d07cd30d"
+    },
+    "Snickers bar": {
+      "quantity": 4,
+      "price": 2.0,
+      "stock_id": "48bccf1c-36b6-4ef2-b972-bce4c5c8364e"
+    },
+    "Trail Mix": {
+      "quantity": 10,
+      "price": 2.25,
+      "stock_id": "75137d3b-43c5-42a3-babb-ba1ffd193294"
+    },
+    "Clif Bar": {
+      "quantity": 10,
+      "price": 2.5,
+      "stock_id": "4c368e8f-0a47-4a2f-b407-5628df33b13e"
+    },
+    "Sparkling Water": {
+      "quantity": 6,
+      "price": 1.75,
+      "stock_id": "0a6c6c54-a20a-496c-b686-4d3641b88f2f"
+    },
+    "Granola Bar": {
+      "quantity": 10,
+      "price": 2.0,
+      "stock_id": "c5a3339a-ceea-4c40-aeb8-9322fef95b0a"
+    }
+  },
+  "interactions": [
+    {
+      "customer": "2c0caee7-6daf-4ca9-ba1a-40b81fa526bf",
+      "picked_item": "Sparkling Water",
+      "score": 0.81,
+      "fulfilled_items": [
+        "Sparkling Water"
+      ],
+      "rejected_items": [],
+      "amount_spent": 1.75,
+      "hunger": 0.6,
+      "price_sensitivity": 0.5
+    },
+    {
+      "customer": "25bdf4c8-34b3-457b-8199-f9a546c64288",
+      "picked_item": "Snickers bar",
+      "score": 0.488333,
+      "fulfilled_items": [
+        "Snickers bar"
+      ],
+      "rejected_items": [],
+      "amount_spent": 2.0,
+      "hunger": 0.72,
+      "price_sensitivity": 0.35
+    },
+    {
+      "customer": "bab3c82c-e57d-48f6-a074-46dc93de7a3b",
+      "picked_item": "Snickers bar",
+      "score": 0.574667,
+      "fulfilled_items": [
+        "Snickers bar"
+      ],
+      "rejected_items": [],
+      "amount_spent": 2.0,
+      "hunger": 0.68,
+      "price_sensitivity": 0.22
+    },
+    {
+      "customer": "e29c7301-024b-46a2-9010-b950afc7db92",
+      "picked_item": "Snickers bar",
+      "score": 0.378333,
+      "fulfilled_items": [
+        "Snickers bar"
+      ],
+      "rejected_items": [],
+      "amount_spent": 2.0,
+      "hunger": 0.42,
+      "price_sensitivity": 0.68
+    },
+    {
+      "customer": "480c217f-4f0a-4d0c-a3bb-a57e3c684dbb",
+      "picked_item": "Snickers bar",
+      "score": 0.515667,
+      "fulfilled_items": [
+        "Snickers bar"
+      ],
+      "rejected_items": [],
+      "amount_spent": 2.0,
+      "hunger": 0.69,
+      "price_sensitivity": 0.82
+    },
+    {
+      "customer": "9f9ed002-c337-4e3b-8759-ba6af23a4293",
+      "picked_item": "Snickers bar",
+      "score": 0.428,
+      "fulfilled_items": [
+        "Snickers bar"
+      ],
+      "rejected_items": [],
+      "amount_spent": 2.0,
+      "hunger": 0.52,
+      "price_sensitivity": 0.72
+    },
+    {
+      "customer": "9f9673a2-06d7-449a-8b70-daefeef536dd",
+      "picked_item": "Snickers bar",
+      "score": 0.674667,
+      "fulfilled_items": [
+        "Snickers bar"
+      ],
+      "rejected_items": [],
+      "amount_spent": 2.0,
+      "hunger": 0.68,
+      "price_sensitivity": 0.22
+    },
+    {
+      "customer": "df1878b7-3941-46f0-b3cd-8e0f62511042",
+      "picked_item": "Sparkling Water",
+      "score": 0.585,
+      "fulfilled_items": [
+        "Sparkling Water"
+      ],
+      "rejected_items": [],
+      "amount_spent": 1.75,
+      "hunger": 0.62,
+      "price_sensitivity": 0.75
+    },
+    {
+      "customer": "f92fabfa-3c38-4be9-be7c-4d057cb04052",
+      "picked_item": "Sparkling Water",
+      "score": 0.45,
+      "fulfilled_items": [
+        "Sparkling Water"
+      ],
+      "rejected_items": [],
+      "amount_spent": 1.75,
+      "hunger": 0.4,
+      "price_sensitivity": 0.8
+    },
+    {
+      "customer": "d739a86b-d8eb-4ee8-a364-4e1a411f5c72",
+      "picked_item": "Sparkling Water",
+      "score": 0.63,
+      "fulfilled_items": [
+        "Sparkling Water"
+      ],
+      "rejected_items": [],
+      "amount_spent": 1.75,
+      "hunger": 0.65,
+      "price_sensitivity": 0.6
+    }
+  ]
+}
