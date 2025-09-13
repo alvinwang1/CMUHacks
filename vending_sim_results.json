@@ -1,10 +1,10 @@
 {
   "mode": "customer_only_day_dot_db_hardcoded",
-  "run_started_at": "2025-09-13T18:02:24.181188Z",
-  "run_finished_at": "2025-09-13T18:02:24.181194Z",
+  "run_started_at": "2025-09-13T18:21:29.237326Z",
+  "run_finished_at": "2025-09-13T18:21:29.237330Z",
   "total_planned_interactions": 10,
   "total_completed_interactions": 10,
-  "total_amount_spent": 7.5,
+  "total_amount_spent": 0.0,
   "params": {
     "PRICE_ALPHA_SCALE": 1.0,
     "THRESHOLD_BASE": 0.0,
@@ -28,7 +28,7 @@
       "stock_id": "5d67ef43-ab7f-486f-97aa-1821fbcdb858"
     },
     "Pretzels": {
-      "quantity": 7,
+      "quantity": 0,
       "price": 1.5,
       "stock_id": "6c1e3843-1a5c-42c8-b6a1-394544ccd6ac"
     },
@@ -38,7 +38,7 @@
       "stock_id": "58a8eda1-3a2f-4863-b077-c8cd7737316a"
     },
     "Cheetos": {
-      "quantity": 10,
+      "quantity": 0,
       "price": 2.0,
       "stock_id": "3c7b1beb-1aa1-4b87-85a6-ffbc9b5e6ea9"
     },
@@ -48,7 +48,7 @@
       "stock_id": "412a7984-8304-4ae6-8fbd-502ef32bdf40"
     },
     "Doritos": {
-      "quantity": 10,
+      "quantity": 0,
       "price": 2.0,
       "stock_id": "b5895057-1dac-4007-b001-5e88a04352bc"
     },
@@ -105,7 +105,7 @@
       "stock_id": "5d67ef43-ab7f-486f-97aa-1821fbcdb858"
     },
     "Pretzels": {
-      "quantity": 2,
+      "quantity": 0,
       "price": 1.5,
       "stock_id": "6c1e3843-1a5c-42c8-b6a1-394544ccd6ac"
     },
@@ -115,7 +115,7 @@
       "stock_id": "58a8eda1-3a2f-4863-b077-c8cd7737316a"
     },
     "Cheetos": {
-      "quantity": 10,
+      "quantity": 0,
       "price": 2.0,
       "stock_id": "3c7b1beb-1aa1-4b87-85a6-ffbc9b5e6ea9"
     },
@@ -125,7 +125,7 @@
       "stock_id": "412a7984-8304-4ae6-8fbd-502ef32bdf40"
     },
     "Doritos": {
-      "quantity": 10,
+      "quantity": 0,
       "price": 2.0,
       "stock_id": "b5895057-1dac-4007-b001-5e88a04352bc"
     },
@@ -168,44 +168,38 @@
   "interactions": [
     {
       "customer": "2c0caee7-6daf-4ca9-ba1a-40b81fa526bf",
-      "picked_item": "Pretzels",
-      "score": 0.005,
-      "fulfilled_items": [
-        "Pretzels"
-      ],
+      "picked_item": null,
+      "score": null,
+      "fulfilled_items": [],
       "rejected_items": [],
-      "amount_spent": 1.5,
+      "amount_spent": 0.0,
       "hunger": 0.6,
       "price_sensitivity": 0.5
     },
     {
       "customer": "25bdf4c8-34b3-457b-8199-f9a546c64288",
-      "picked_item": "Pretzels",
-      "score": -0.1075,
-      "fulfilled_items": [
-        "Pretzels"
-      ],
+      "picked_item": null,
+      "score": null,
+      "fulfilled_items": [],
       "rejected_items": [],
-      "amount_spent": 1.5,
+      "amount_spent": 0.0,
       "hunger": 0.72,
       "price_sensitivity": 0.35
     },
     {
       "customer": "bab3c82c-e57d-48f6-a074-46dc93de7a3b",
-      "picked_item": "Pretzels",
-      "score": 0.037,
-      "fulfilled_items": [
-        "Pretzels"
-      ],
+      "picked_item": null,
+      "score": null,
+      "fulfilled_items": [],
       "rejected_items": [],
-      "amount_spent": 1.5,
+      "amount_spent": 0.0,
       "hunger": 0.68,
       "price_sensitivity": 0.22
     },
     {
       "customer": "e29c7301-024b-46a2-9010-b950afc7db92",
       "picked_item": null,
-      "score": -0.315,
+      "score": null,
       "fulfilled_items": [],
       "rejected_items": [],
       "amount_spent": 0.0,
@@ -215,7 +209,7 @@
     {
       "customer": "480c217f-4f0a-4d0c-a3bb-a57e3c684dbb",
       "picked_item": null,
-      "score": -0.449,
+      "score": null,
       "fulfilled_items": [],
       "rejected_items": [],
       "amount_spent": 0.0,
@@ -225,7 +219,7 @@
     {
       "customer": "9f9ed002-c337-4e3b-8759-ba6af23a4293",
       "picked_item": null,
-      "score": -0.323,
+      "score": null,
       "fulfilled_items": [],
       "rejected_items": [],
       "amount_spent": 0.0,
@@ -234,20 +228,18 @@
     },
     {
       "customer": "9f9673a2-06d7-449a-8b70-daefeef536dd",
-      "picked_item": "Pretzels",
-      "score": -0.033,
-      "fulfilled_items": [
-        "Pretzels"
-      ],
+      "picked_item": null,
+      "score": null,
+      "fulfilled_items": [],
       "rejected_items": [],
-      "amount_spent": 1.5,
+      "amount_spent": 0.0,
       "hunger": 0.68,
       "price_sensitivity": 0.22
     },
     {
       "customer": "df1878b7-3941-46f0-b3cd-8e0f62511042",
       "picked_item": null,
-      "score": -0.2675,
+      "score": null,
       "fulfilled_items": [],
       "rejected_items": [],
       "amount_spent": 0.0,
@@ -257,7 +249,7 @@
     {
       "customer": "f92fabfa-3c38-4be9-be7c-4d057cb04052",
       "picked_item": null,
-      "score": -0.34,
+      "score": null,
       "fulfilled_items": [],
       "rejected_items": [],
       "amount_spent": 0.0,
@@ -266,13 +258,11 @@
     },
     {
       "customer": "d739a86b-d8eb-4ee8-a364-4e1a411f5c72",
-      "picked_item": "Pretzels",
-      "score": -0.115,
-      "fulfilled_items": [
-        "Pretzels"
-      ],
+      "picked_item": null,
+      "score": null,
+      "fulfilled_items": [],
       "rejected_items": [],
-      "amount_spent": 1.5,
+      "amount_spent": 0.0,
       "hunger": 0.65,
       "price_sensitivity": 0.6
     }
